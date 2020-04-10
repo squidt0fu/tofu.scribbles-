@@ -3,11 +3,11 @@ Prof. Carol Diamond believes she has Carpal Tunnels in her elbow due to working 
 It's been almost 3 weeks and I haven't updated this at all
 Update: I started doing cosplay TikToks and now my life is a mess. I also have back pain now
 
-voidsetup(){
+voidsetup(){ //happens once
 pinMode([pin #]);
 }
 
-voidloop(){
+voidloop(){ //happens in a loop
 digitalWrite([pin #], LOW/HIGH);
 delay([# ms]);
 }
